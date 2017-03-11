@@ -17,3 +17,6 @@ editor:
       - Anchor
       - Underline
       - Strike
+
+    # Limit the height of the editor
+    height: 50

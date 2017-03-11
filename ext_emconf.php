@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Config examples',
-    'description' => '',
+    'description' => 'Some CKEditor and cropVariant example configuration',
     'category' => 'misc',
     'state' => 'experimental',
     'clearCacheOnLoad' => 1,
@@ -11,7 +11,7 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.6.0-8.7.99',
+            'typo3' => '8.7.0-8.7.99',
         ],
         'conflicts' => [],
         'suggests' => [],

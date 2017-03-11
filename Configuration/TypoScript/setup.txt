@@ -1,0 +1,20 @@
+
+page.10 {
+    templateRootPaths.100 = EXT:config_examples/Resources/Private/Templates/Page/
+    partialRootPaths.100 = EXT:config_examples/Resources/Private/Partials/Page/
+    layoutRootPaths.100 = EXT:config_examples/Resources/Private/Layouts/Page/
+
+    dataProcessing {
+        # Add page files to the view
+        1000 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        1000 {
+            references.fieldName = media
+            as = headerImage
+        }
+    }
+}
+lib.contentElement {
+    templateRootPaths.100 = EXT:config_examples/Resources/Private/Templates/ContentElements/
+    partialRootPaths.100 = EXT:config_examples/Resources/Private/Partials/ContentElements/
+    layoutRootPaths.100 = EXT:config_examples/Resources/Private/Layouts/ContentElements/
+}

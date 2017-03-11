@@ -3,7 +3,7 @@ defined('TYPO3_MODE') or die();
 
 $GLOBALS['TCA']['pages']['columns']['media']['config']['overrideCropVariants'] = [
     'crop' => [
-        'fullpage' => [
+        'default' => [
             'title' => 'LLL:EXT:config_examples/Resources/Private/Language/locallang.xlf:imageManipulation.page.full-page',
             'cropArea' => [
                 'x' => 0.0,
@@ -16,6 +16,10 @@ $GLOBALS['TCA']['pages']['columns']['media']['config']['overrideCropVariants'] =
                 '16:4' => [
                     'title' => 'LLL:EXT:config_examples/Resources/Private/Language/locallang.xlf:imageManipulation.page.full-page',
                     'value' => 16 / 4
+                ],
+                '16:5' => [
+                    'title' => 'Venlo test',
+                    'value' => 16 / 5
                 ],
             ],
         ],

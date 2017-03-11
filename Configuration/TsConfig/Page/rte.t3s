@@ -6,7 +6,7 @@ RTE {
                 types {
                     textmedia.preset = text-element
                     textpic.preset = bootstrap
-                    text.preset = text-element
+                    texticon.preset = default
                 }
             }
         }
