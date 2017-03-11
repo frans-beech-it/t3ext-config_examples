@@ -1,0 +1,14 @@
+// Available presets (default, minimal, full)
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    textmedia.preset = text-element
+                    textpic.preset = bootstrap
+                    text.preset = text-element
+                }
+            }
+        }
+    }
+}
