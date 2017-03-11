@@ -1,4 +1,9 @@
-// Available presets (default, minimal, full)
+// Presets provided by the core: `default`, `minimal`, `full` were `default` is overritten by this extension
+// `bootstrap` comes from EXT:bootstrap_package https://github.com/benjaminkott/bootstrap_package
+// `text-element` is added by this extension
+//
+// The preset YAML configuration can be found in the folder /Configuration/RTE/
+// Own presets are registered in `ext_localconf.php`
 RTE {
     config {
         tt_content {
