@@ -24,6 +24,12 @@ $GLOBALS['TCA']['pages']['columns']['media']['config']['overrideChildTca']['colu
                             'value' => 16 / 5
                         ]
                     ]
+                ],
+                'mobile-landscape' => [
+                    'disabled' => true,
+                ],
+                'mobile-portrait' => [
+                    'disabled' => true,
                 ]
             ]
         ]
