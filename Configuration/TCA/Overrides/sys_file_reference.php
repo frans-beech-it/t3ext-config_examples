@@ -77,7 +77,7 @@ if (!isset($GLOBALS['TCA']['sys_file_reference']['columns']['crop']['config']['c
     $GLOBALS['TCA']['sys_file_reference']['columns']['crop']['config']['cropVariants'] = [];
 }
 
-$GLOBALS['TCA']['sys_file_reference']['columns']['crop']['config']['cropVariants'] = array_merge(
+$GLOBALS['TCA']['sys_file_reference']['columns']['crop']['config']['cropVariants'] = array_replace_recursive(
     $GLOBALS['TCA']['sys_file_reference']['columns']['crop']['config']['cropVariants'],
     $additionalCropVariants
 );
