@@ -7,7 +7,7 @@ imports:
 # Minimal configuration for the editor
 editor:
   config:
-    stylesSet: []
+
     toolbarGroups:
       - { name: basicstyles, groups: [ basicstyles] }
       - { name: links, groups: [ links ] }

@@ -7,7 +7,9 @@ imports:
 # Minimal configuration for the editor
 editor:
   config:
-    stylesSet: []
+
+    # Limit the height of the editor
+    height: 200
 
     toolbarGroups:
       - { name: basicstyles, groups: [ basicstyles] }
