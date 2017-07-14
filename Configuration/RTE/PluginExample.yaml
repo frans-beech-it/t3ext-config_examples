@@ -1,0 +1,10 @@
+# Load default processing options
+imports:
+    - { resource: "EXT:config_examples/Configuration/RTE/Default.yaml" }
+
+editor:
+  # Load my plugin as external plugin
+  externalPlugins:
+    example_plugin:
+      resource: "EXT:config_examples/Resources/Public/CkEditorPlugins/example_plugin.js"
+      route: "rteckeditor_wizard_browse_links"

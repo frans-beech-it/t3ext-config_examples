@@ -10,10 +10,14 @@ RTE {
             bodytext {
                 types {
                     textmedia.preset = text-element
-                    textpic.preset = bootstrap
+                    textpic.preset = plugin-example
                     texticon.preset = default
+                    text.preset = plugin-example
                 }
             }
         }
     }
 }
+
+
+RTE.default.preset = plugin-example
